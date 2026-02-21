@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metodo | Mantovani</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+      body { font-family: "Inter", sans-serif; }
+    </style>
+  </head>
+  <body class="bg-white text-slate-900">
+    <header class="sticky top-0 z-40 border-b border-slate-200 bg-white/90 backdrop-blur">
+      <div class="mx-auto max-w-6xl px-5">
+        <div class="flex h-16 items-center justify-between">
+          <a href="index.html" class="text-sm font-semibold tracking-tight">Mantovani</a>
+          <nav class="flex items-center gap-5 text-sm text-slate-600">
+            <a class="hover:text-slate-900" href="index.html">Home</a>
+            <a class="hover:text-slate-900" href="servizi.html">Servizi</a>
+            <a class="font-semibold text-slate-900" href="metodo.html">Metodo</a>
+            <a class="hover:text-slate-900" href="contatti.html">Contatti</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-6xl px-5 py-16 sm:py-20">
+      <p class="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500">Framework</p>
+      <h1 class="mt-3 text-4xl sm:text-5xl font-semibold tracking-tight">Modello statistico del rischio contrattuale</h1>
+
+      <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-5">
+        <section class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <p class="text-sm font-semibold">1. Baseline economica</p>
+          <p class="mt-2 text-sm text-slate-600">Definizione del profilo di rischio iniziale del contratto prima delle modifiche richieste.</p>
+        </section>
+        <section class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <p class="text-sm font-semibold">2. Assunzioni probabilistiche</p>
+          <p class="mt-2 text-sm text-slate-600">Frequenza e severità degli eventi vengono calibrate su casistiche operative e struttura della clausola.</p>
+        </section>
+        <section class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <p class="text-sm font-semibold">3. Repricing delle modifiche</p>
+          <p class="mt-2 text-sm text-slate-600">Ogni richiesta del cliente finale è tradotta in delta costo: expected loss, stress loss e tail exposure.</p>
+        </section>
+        <section class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <p class="text-sm font-semibold">4. Decisione di negoziazione</p>
+          <p class="mt-2 text-sm text-slate-600">Output con soglie economiche per accettare, controproporre o rifiutare la modifica.</p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="border-t border-slate-200 py-8">
+      <div class="mx-auto max-w-6xl px-5 text-sm text-slate-600">© 2026 Mantovani</div>
+    </footer>
+  </body>
+</html>
